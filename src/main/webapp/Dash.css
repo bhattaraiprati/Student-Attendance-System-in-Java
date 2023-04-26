@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    /* display: flex; */
+    height: 60px;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #044ebd;
+
+    color: white;
+}
+.Tname{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 700;;
+    /* align-items: flex-start; */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* display: flex;
+    justify-content: flex-start; */
+}
+.Pname{
+    position: absolute;
+    /*right: 53px;*/
+    font-size: 13px;
+    /* justify-content: flex-end; */
+    /* display: flex; */
+    /* width: 100%; */
+    /* align-items: flex-end; */
+}
+.Pemail{
+    position: absolute;
+    /*right: 40px;*/
+    top: 35px;
+    font-size: 10px;
+}
+.user{
+    position: absolute;
+    right: 147px;
+    top: 9px;
+    height: 39px;
+    width: 39px;
+}
+
+.align{
+    height: 50px;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+
+}
+
+.leftmenu{
+    width: 265px;
+    height: 100vh;
+    background: #0d6efd;
+    color: white;
+    /* background-color: aqua; */
+
+}
+.filter-box{
+    /* display: block; */
+    /* position: relative; */
+    margin-top: 12px;
+    padding: 20px 36px 10px 11px;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    display: block;
+}
+.filter-box2{
+    /* display: block; */
+    /* position: relative; */
+    margin-top: 1px;
+    padding: 20px 36px 10px 11px;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    display: block;
+}
+.attendl1{
+    display: flex;
+
+}
+
+.atten{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 37px;
+    width: 30px;
+
+}
+.member{
+    margin-left: 20px;
+    margin-top: 14px;
+    height: 28px;
+    width: 29px;
+
+}
+.aclass{
+    margin-left: 20px;
+    margin-top: 14px;
+    height: 28px;
+    width: 26px;
+
+}
+.uclass{
+    margin-left: 20px;
+    margin-top: 14px;
+    height: 26px;
+    width: 26px;
+}
+.log{
+    margin-left: 20px;
+    margin-top: 14px;
+    height: 28px;
+    width: 29px;
+}
+.cpass{
+    margin-left: 20px;
+    margin-top: 14px;
+    height: 28px;
+    width: 29px;
+}
+main{
+    display: flex;
+}
+.main{
+    width: calc(100% - 265px);
+    /* background-color: red; */
+    height: 100vh;
+}
+.main-top{
+    margin-top: 20px;
+    /*margin-left: 38px;*/
+    display: flex;
+    height: 70px;
+    width: 159vh;
+    /* background-color: red; */
+    /* border: 0.5px solid lightgray; */
+    /* border-radius: 10px; */
+}
+.semester{
+    font-size: 17px;
+    font-weight: 549;
+    margin: 25px 15px 10px 22px;
+}
+.drop1{
+    height: 35px;
+    width: 105px;
+    margin-top: 18px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.drop2{
+    height: 35px;
+    width: 80px;
+    margin-top: 18px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.drop3{
+    height: 35px;
+    width: 120px;
+    margin-top: 18px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.option{
+    font-size: 17px;
+}
+.item-list{
+    margin: 20px;
+    border: 1px solid lightgray;
+    height: 100vh;
+}
+.list1{
+    padding-top: 10px;
+    padding-left: 90px;
+}
+.list2{
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.list3{
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.list4{
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.list5{
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.demo{
+    color: white;
+    text-decoration: none;
+}
+.view{
+    width: 110px;
+    height: 40px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 18px;
+    color: white;
+    font-size: 16px;
+    background-color: #0d6efd;
+
+}
+.view:hover{
+    background-color: #044ebd;
+}
